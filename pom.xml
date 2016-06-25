@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 		<!-- docker -->
-		<docker.image.prefix>springio</docker.image.prefix>
+		<docker.image.prefix>spring-app</docker.image.prefix>
 	</properties>
 
 	<dependencies>
