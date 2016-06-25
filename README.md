@@ -6,10 +6,6 @@ Create Docker Image
 Show Docker Iamges
 `$ docker images`
 
-Push to Cloud https://cloud.docker.com/
-`$ docker push spring-app/docker-spring-app         `
-
-
 
 
 Delete all containers
