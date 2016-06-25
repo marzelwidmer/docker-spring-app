@@ -3,8 +3,3 @@ info:
     artifact: @project.artifactId@
     description : @project.description@
     version : @project.version@
-
-
-server:
-  port: 8080
-  address: 127.0.0.1
