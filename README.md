@@ -6,7 +6,20 @@ Create Docker Image
 Show Docker Iamges
 `$ docker images`
 
+Start Container
+`$ docker run -d -p 8080:8080 --name app1 spring-app/docker-spring-app`
 
+Show running Docker processes
+`$ docker ps`
+
+Show stoped Docker processes
+`$ docker ps -a`
+
+Start app1
+`$ docker start app1`
+
+Stop app1
+`$ docker stop app1`
 
 Delete all containers
 `$  docker rm $(docker ps -a -q)`
