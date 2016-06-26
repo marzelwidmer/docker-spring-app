@@ -9,6 +9,11 @@ Show Docker Iamges
 Start Container
 `$ docker run -d -p 8080:8080 --name app1 spring-app/docker-spring-app`
 
+run option :
+`-d start background
+-p binding address
+--name set name`
+
 Show running Docker processes
 `$ docker ps`
 
