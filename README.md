@@ -12,7 +12,8 @@ Start Container
 run option :
 `-d start background
 -p binding address
---name set name`
+--name set name
+{image prefix name}/{image name}`
 
 Show running Docker processes
 `$ docker ps`
