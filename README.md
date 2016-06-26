@@ -25,12 +25,20 @@ http://http://localhost:8080/
 http://localhost:8084/
 
 
-docker run option :
+_docker run option_ :
 
-`-d start background
--p binding address
---name set name
-{image prefix name}/{image name}`
+`-d`
+start background
+
+`-p`
+binding address
+
+`--name`
+set name
+
+`{image prefix name}/{image name}`
+
+
 
 ***Show running docker processes***
 
