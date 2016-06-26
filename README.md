@@ -8,6 +8,7 @@ Show Docker Iamges
 
 Start Container
 `$ docker run -d -p 8080:8080 --name app1 spring-app/docker-spring-app`
+docker run -d --name docker-spring-app -p 8080:8080 spring-app/docker-spring-app
 
 run option :
 `-d start background
