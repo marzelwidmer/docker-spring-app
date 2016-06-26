@@ -1,8 +1,11 @@
-**OSX**
-
 ***Create docker image***
 
+`$ mvn package docker:build `
+
+_OSX_
+
 `$ DOCKER_HOST=unix:///var/run/docker.sock mvn package docker:build `
+
 
 ***Show docker iamges***
 
