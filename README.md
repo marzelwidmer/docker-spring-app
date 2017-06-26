@@ -17,7 +17,7 @@ _OSX_
 
 ***Test application***
 
-http://http://localhost:8080/
+http://localhost:8080/
 
 ***Start a second container***
 
