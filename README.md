@@ -13,7 +13,7 @@ _OSX_
 
 ***Start container***
 
-`$ docker run -d -p 8080:8080 --name app1 spring-app/docker-spring-app`
+`$ docker run -d -p 8080:8080 --name app1 marzelwidmer/docker-spring-app`
 
 ***Test application***
 
@@ -21,7 +21,7 @@ http://localhost:8080/
 
 ***Start a second container***
 
-`docker run -d --name app2 -p 8084:8080 keepcalm.ch/docker-spring-app`
+`docker run -d --name app2 -p 8084:8080 marzelwidmer/docker-spring-app`
 
 ***Test second application***
 
